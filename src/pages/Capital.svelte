@@ -24,9 +24,9 @@
   <p>C = {I / (i * t)}</p>
 {:else}
   <label>
-    <input type="number" bind:value={vf} placeholder="Vf" />
-    <input type="number" bind:value={i} placeholder="i" />
-    <input type="number" bind:value={t} placeholder="t" />
+ vf <input type="number" bind:value={vf} placeholder="Vf" /> /
+  (1 + i<input type="number" bind:value={i} placeholder="i" /> *
+  t <input type="number" bind:value={t} placeholder="t" /> )
   </label>
   <p>C = {vf / (1 + i * t)}</p>
 {/if}
